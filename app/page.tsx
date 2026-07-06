@@ -1,8 +1,5 @@
 export default function Home() {
-  return (
-    <main style={{ padding: 40 }}>
-      <h1>Vitta Tratamento</h1>
-      <p>Site no ar 🚀</p>
-    </main>
-  )
-}
+  return <h1 style={{ padding: 50 }}>RODANDO NO VERCEL 🚀</h1>
+}git add .
+git commit -m "teste rota home"
+git push
