@@ -12,7 +12,7 @@ export default function Home() {
       }}
     >
       <Image
-        src="/images/20.29.50.jpeg"
+        src="/vitta.jpeg" />
         alt="Vitta Tratamento"
         width={900}
         height={500}
