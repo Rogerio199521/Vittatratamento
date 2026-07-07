@@ -9,18 +9,11 @@ export default function Home() {
       }}
     >
       <img
-        src="/images/vitta.jpeg"
-        alt="Vitta Tratamento"
-        width={900}
-        height={500}
-        style={{
-          width: "100%",
-          maxWidth: "900px",
-          height: "auto",
-          borderRadius: "20px",
-          marginBottom: "30px",
-        }}
-      />
+  src="/imagens/banner.jpeg"
+  alt="Vitta Tratamento"
+  width={900}
+  height={500}
+/>
 
       <h1
         style={{
