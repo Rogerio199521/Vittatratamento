@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <main
@@ -5,10 +7,24 @@ export default function Home() {
         minHeight: "100vh",
         background: "#0b1f1a",
         color: "white",
-        padding: "60px 30px",
+        padding: "40px 20px",
         textAlign: "center",
       }}
     >
+      <Image
+        src="/images/20.29.50.jpeg"
+        alt="Vitta Tratamento"
+        width={900}
+        height={500}
+        style={{
+          width: "100%",
+          maxWidth: "900px",
+          height: "auto",
+          borderRadius: "20px",
+          marginBottom: "30px",
+        }}
+      />
+
       <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
         Vitta Tratamento
       </h1>
@@ -38,11 +54,10 @@ export default function Home() {
           padding: "16px 35px",
           borderRadius: "30px",
           fontSize: "18px",
-          cursor: "pointer",
         }}
       >
         Falar no WhatsApp
       </button>
     </main>
-  )
+  );
 }
