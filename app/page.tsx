@@ -9,7 +9,7 @@ export default function Home() {
       }}
     >
       <img
-        src="/vitta.jpeg"
+        src="/images/vitta.jpeg"
         alt="Vitta Tratamento"
         width={900}
         height={500}
@@ -56,7 +56,7 @@ export default function Home() {
           display: "inline-block",
           padding: "15px 30px",
           background: "#25D366",
-          color: "white",
+          color: "#fff",
           borderRadius: "10px",
           textDecoration: "none",
           fontSize: "20px",
