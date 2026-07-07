@@ -1,56 +1,48 @@
 export default function Home() {
   return (
-    <main style={{ fontFamily: "Arial, sans-serif" }}>
-      <section
+    <main
+      style={{
+        minHeight: "100vh",
+        background: "#0b1f1a",
+        color: "white",
+        padding: "60px 30px",
+        textAlign: "center",
+      }}
+    >
+      <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
+        Vitta Tratamento
+      </h1>
+
+      <h2 style={{ fontSize: "28px", marginBottom: "20px" }}>
+        Recuperação, acolhimento e transformação de vidas
+      </h2>
+
+      <p
         style={{
-          minHeight: "100vh",
-          background:
-            "linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('/clinica.jpg') center/cover",
-          color: "white",
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "center",
-          padding: "40px",
+          fontSize: "20px",
+          maxWidth: "700px",
+          margin: "0 auto 40px",
+          lineHeight: "1.6",
         }}
       >
-        <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
-          Vitta Tratamento
-        </h1>
+        Tratamento especializado para dependência química e alcoólica,
+        com uma equipe preparada para acolher, cuidar e ajudar você ou sua
+        família a encontrar um novo caminho.
+      </p>
 
-        <h2 style={{ fontSize: "28px", maxWidth: "700px" }}>
-          Transformando vidas através do tratamento especializado para
-          dependência química e alcoólica
-        </h2>
-
-        <p style={{ fontSize: "20px", maxWidth: "600px", marginTop: "20px" }}>
-          Uma equipe preparada para acolher, cuidar e ajudar você ou sua
-          família a encontrar um novo caminho.
-        </p>
-
-        <button
-          style={{
-            marginTop: "30px",
-            width: "250px",
-            padding: "15px",
-            fontSize: "18px",
-            borderRadius: "8px",
-            border: "none",
-            background: "#25D366",
-            color: "white",
-            cursor: "pointer",
-          }}
-        >
-          Falar no WhatsApp
-        </button>
-      </section>
-
-      <section style={{ padding: "50px", textAlign: "center" }}>
-        <h2>Tratamento com acolhimento e segurança</h2>
-        <p>
-          Atendimento humanizado para pessoas que buscam recuperação e uma
-          nova oportunidade de vida.
-        </p>
-      </section>
+      <button
+        style={{
+          background: "#25D366",
+          color: "white",
+          border: "none",
+          padding: "16px 35px",
+          borderRadius: "30px",
+          fontSize: "18px",
+          cursor: "pointer",
+        }}
+      >
+        Falar no WhatsApp
+      </button>
     </main>
-  );
+  )
 }
