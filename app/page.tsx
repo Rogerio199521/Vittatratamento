@@ -11,13 +11,7 @@ export default function Home() {
         textAlign: "center",
       }}
     >
-    <img
-  src="/vitta.jpeg"
-  alt="Vitta Tratamento"
-  />
-        width={900}
-        height={500}
-        style={{
+    
           width: "100%",
           maxWidth: "900px",
           height: "auto",
@@ -45,18 +39,18 @@ export default function Home() {
         Tratamento especializado para dependência química e alcoólica,
         com uma equipe preparada para acolher, cuidar e ajudar você ou sua
         família a encontrar um novo caminho.
-      </p>
-
-      <button
-        style={{
-          background: "#25D366",
-          color: "white",
-          border: "none",
-          padding: "16px 35px",
-          borderRadius: "30px",
-          fontSize: "18px",
-        }}
-      >
+      </p><img
+  src="/vitta.jpeg"
+  alt="Vitta Tratamento"
+  width={900}
+  height={500}
+  style={{
+    width: "100%",
+    maxWidth: "900px",
+    height: "auto",
+    borderRadius: "20px",
+  }}
+/>
         Falar no WhatsApp
       </button>
     </main>
