@@ -11,9 +11,10 @@ export default function Home() {
         textAlign: "center",
       }}
     >
-      <Image
-        src="/vitta.jpeg" />
-        alt="Vitta Tratamento"
+    <img
+  src="/vitta.jpeg"
+  alt="Vitta Tratamento"
+  />
         width={900}
         height={500}
         style={{
@@ -23,7 +24,7 @@ export default function Home() {
           borderRadius: "20px",
           marginBottom: "30px",
         }}
-      />
+      
 
       <h1 style={{ fontSize: "48px", marginBottom: "20px" }}>
         Vitta Tratamento
