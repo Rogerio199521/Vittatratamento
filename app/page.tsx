@@ -11,7 +11,7 @@ export default function Home() {
         style={{
           position: "relative",
           width: "100%",
-          height: "600px",
+          height: "100vh",
           overflow: "hidden",
         }}
       >
