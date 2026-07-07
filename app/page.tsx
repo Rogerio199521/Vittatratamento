@@ -9,7 +9,7 @@ export default function Home() {
       }}
     >
       <img
-  src="/imagens/banner.jpeg"
+  src="/images/banner.jpeg"
   alt="Vitta Tratamento"
   width={900}
   height={500}
