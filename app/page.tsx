@@ -14,28 +14,30 @@ export default function Home() {
         }}
       >
         <img
-          src="/images/banner.jpeg"
-          alt="Vitta Tratamento"
-          style={{
-            width: "100%",
-            height: "100%",
-            objectFit: "cover",
-          }}
-        />
-
-        <div
-          style={{
-            position: "absolute",
-            inset: 0,
-            background: "rgba(0,0,0,0.45)",
-          }}
-        />
+  src="/images/banner.jpeg"
+  alt="Vitta Tratamento"
+  style={{
+    width: "100%",
+    height: "100%",
+    objectFit: "cover",
+    objectPosition: "center left",
+    backgroundColor: "#000",
+  }}
+/>
+       <div
+  style={{
+    position: "absolute",
+    inset: 0,
+    background:
+      "linear-gradient(to bottom, rgba(0,0,0,0.55), rgba(0,0,0,0.25))",
+  }}
+/>
 
         <div
           style={{
             position: "absolute",
             top: "40px",
-            left: "50%",
+            left: "75%",
             transform: "translateX(-50%)",
             width: "90%",
             textAlign: "center",
@@ -50,55 +52,16 @@ export default function Home() {
     display: "block",
   }}
 />
-          <h1 style={{ fontSize: "42px" }}>
-            Vitta Tratamento
-          </h1>
-
-          <p style={{ fontSize: "20px" }}>
-            Transformando vidas através do tratamento especializado para
-            dependência química e alcoólica.
-          </p>
-
-          <a
-            href="https://wa.me/5521995230950"
-            style={{
-              display: "inline-block",
-              marginTop: "30px",
-              padding: "15px 35px",
-              background: "#25D366",
-              color: "white",
-              borderRadius: "30px",
-              textDecoration: "none",
-              fontWeight: "bold",
-            }}
-          >
-            Falar no WhatsApp
-          </a>
-        </div>
-      </section>
-
-      <section
-        style={{
-          background: "white",
-          padding: "60px 20px",
-          textAlign: "center",
-        }}
-      >
-        <h2>Sobre a Vitta Tratamento</h2>
-
-        <p>
-          Tratamento especializado para dependência química e alcoólica,
-          com acolhimento, segurança e acompanhamento profissional.
-        </p>
-      </section>
-
-      <section
+          </div>
+          <section
+      
         style={{
           background: "#f5f5f5",
           padding: "60px 20px",
           textAlign: "center",
         }}
       >
+    
        <h2>Nossos diferenciais</h2>
 
 <div
@@ -134,13 +97,7 @@ export default function Home() {
 </div>
       </section>
 
-      <section
-        style={{
-          background: "white",
-          padding: "60px 20px",
-          textAlign: "center",
-        }}
-      >{/* 4 - COMO FUNCIONA O TRATAMENTO */}
+{/* 4 - COMO FUNCIONA O TRATAMENTO */}
 <section
   style={{
     background: "white",
@@ -463,11 +420,6 @@ export default function Home() {
   }}
 >
   <h2>Vitta Tratamento</h2>
-
-  <p>
-    Transformando vidas através do tratamento especializado para
-    dependência química e alcoólica.
-  </p>
 
   <p>
     WhatsApp: (21) 99523-0950
