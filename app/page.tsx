@@ -48,8 +48,9 @@ export default function Home() {
   alt="Logo Vitta"
   style={{
     width: "130px",
-    margin: "20 auto 20px auto",
+    margin: "0 auto 20px auto",
     display: "block",
+    transform: "translateY(15px)",
   }}
 />
           </div>
